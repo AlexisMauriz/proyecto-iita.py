@@ -7,8 +7,8 @@ import util.util_imagenes as util_img
 class FormularioMaestroDesign(tk.Tk):  
     def __init__(self):
         super().__init__()
-        self.logo = util_img.load_image("./imagenes/iita-logo.jpeg", (560, 136))
-        self.perfil = util_img.load_image("./imagenes/zyro-image.png", (100, 100))
+        self.logo = util_img.load_image("./imagenes/iita-logo.jpeg", (400, 400))
+        self.perfil = util_img.load_image("./imagenes/zyro-image.png", (200, 200))
         self.config_window()
         self.paneles()
         self.controles_barra_superior()
